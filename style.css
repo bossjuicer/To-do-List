@@ -1,0 +1,93 @@
+*{
+    background-color:white
+}
+
+.title{
+    text-align:center;
+    color: blueviolet;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.input-filed{
+    background:white;
+    /* text-align:center; */
+    /* display: ; */
+    /* border: 1px solid black; */
+    height:40px;
+    width: 340px;
+    border-radius:5px; 
+    outline: none;
+    padding:5px;
+    font-size:20px;
+}
+
+
+.input-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0.5rem;
+	border-bottom: 4px solid #fff;
+	margin-right: 45px;
+}
+.input-button{
+    height:52px;
+    margin-left: 5px;
+    width:55px;
+    font-size:20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    background-color: blueviolet;
+}
+.btn{
+    width:100px;
+}
+
+.todo-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;  
+    margin-top: 2px; 
+    align-items:center;
+    text-align:center;
+    flex-direction:column
+
+}
+
+.edit-button {
+    height:52px;
+    margin-left: 5px;  
+    width:55px;
+    font-size:30px; 
+    /* background-color: blueviolet; */
+    color:gray;
+}
+.del-button{
+    height:52px;
+    margin-left: 5px;  
+    width:55px;
+    font-size:30px; 
+    /* background-color: blueviolet; */
+    /* color:black; */
+}
+
+
+.enter-field{
+    background:white;
+    text-align:center;
+    /* display: ; */
+    border: 1px solid black;
+    height:40px;
+    width: 340px;
+    border-radius:5px; 
+    outline: none;
+    padding:5px;
+    font-size:20px;
+
+    /* margin-top: 5px; */
+}
